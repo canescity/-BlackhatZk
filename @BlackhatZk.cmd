@@ -15,17 +15,17 @@ echo   บ                       ฏ ั$MBARALH@NDO $ENHAS ฎ             
 echo   ฬอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออน 
 echo   บบ 
 echo   บฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟบ
-echo   บณ   QUEBR@NDO WINRAR    ณบ
+echo   บณ   MEGA SENA CHECK-UP   ณบ
 echo   บรฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤดบ
 echo   บฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤด                       รฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟบ
-echo   บณ ฏ .RAR ฎ บบบบบบบบณ      FR€A BRUT@      ณบบบบบบบบบบ ฏ .RAR ฎ ณบ
+echo   บณ ฏ .RAR ฎ บบบบบบบบณ      NERD APOSTA      ณบบบบบบบบบบ ฏ .RAR ฎ ณบ
 echo   ฬฤฤฤฤู                  ณ                       ณ                    ภฤฤฤฤน
 echo   ฬอออออออออออออออออออออออสอออออออออออออออออออออออสอออออออออออออออออออออออออน
 echo   บบบบบบบบบบบบบ 0101001 0100000 0100010 0101010 0100100 0110011 บบบบบบบบบบบบบ
 echo   บอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
 echo   บ
 set arq=0
-set /p arq=. ศArquivo: 
+set /p arq=. ศArquivo da Aposta: 
 if %arq% ==0 (
 echo msgbox"Arraste o arquivo aqui!" ,vbcritical, "For็a Bruta" > %temp%\msg.vbs
 start %temp%\msg.vbs & goto in
@@ -40,10 +40,10 @@ echo   บ                       ฏ ั$MBARALH@NDO $ENHAS ฎ             
 echo   ฬอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออน 
 echo   บบ 
 echo   บฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟบ
-echo   บณ   QUEBR@NDO WINRAR    ณบ
+echo   บณ   MEGA SENA CHECK-UP  ณบ
 echo   บรฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤดบ
 echo   บฺฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤด                       รฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟบ
-echo   บณ ฏ .RAR ฎ บบบบบบบบณ      FR€A BRUT@      ณบบบบบบบบบบ ฏ .RAR ฎ ณบ
+echo   บณ ฏ .RAR ฎ บบบบบบบบณ      APOSTA NERD      ณบบบบบบบบบบ ฏ .RAR ฎ ณบ
 echo   ฬฤฤฤฤู                  ณ                       ณ                    ภฤฤฤฤน
 echo   ฬอออออออออออออออออออออออสอออออออออออออออออออออออสอออออออออออออออออออออออออน
 echo   บบบบบบบบบบบบบ Dicion rio Padrฦo: Lista.txt PRESSIONE [ENTER]  บบบบบบบบบบบบบ
@@ -65,9 +65,9 @@ for /f "tokens=*" %%L in (%dic%) do (
 set /a n=!n!+1
 "%programfiles(x86)%"\winrar\rar x -y %arq% -p%%L >nul
 echo.
-echo Hackeando: %%L
+echo checando-Aposta$: %%L
 if !errorlevel!==0 (
-echo msgbox"Senha quebrada SENHA: %%L" ,vbinformation, "Hacker" > %temp%\msg.vbs
+echo msgbox"NÚMERO SORTEADO PARABÉNS SENHA: %%L" ,vbinformation, "Hacker" > %temp%\msg.vbs
 echo Arquivo: %arq% >senha.txt
 echo Senha: %%L >>senha.txt
 echo Passos: !n! >>senha.txt
@@ -86,7 +86,7 @@ set /a n=!n!+1
 echo.
 echo Hackeando: %%L
 if !errorlevel!==0 (
-echo msgbox"Senha quebrada SENHA: %%L" ,vbinformation, "Hacker" > %temp%\msg.vbs
+echo msgbox"NÚMERO SORTEADO PARABÉNS SENHA: %%L" ,vbinformation, "Hacker" > %temp%\msg.vbs
 echo %%L >senha.txt
 start %temp%\msg.vbs & exit
 echo Passos: !n! >>senha.txt
