@@ -1,5 +1,5 @@
 @echo off
-title Winrar FR€A BRUTA ฏ Desenvolvido por: HYP3R GL1TCHฉ
+title JOGO DA MEGA SENA  ฏ Desenvolvido por: @BlackhatZkฉ
 cd /d %~dp0
 mode 79,17
 color 0a
